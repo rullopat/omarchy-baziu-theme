@@ -1,0 +1,34 @@
+# Baziu — Mask & Moonlight
+# A warm dark palette inspired by Baziu's seal-point coat and sapphire eyes.
+mode = "dark"
+
+accent = "#7BB4D2"
+# Sapphire at 24% over the background, matching Bazilion's text selection.
+selection = "#313A3E"
+muted = "#7A6555"
+
+background = "#1A140F"
+dark_background = "#140F0B"
+darker_background = "#0F0A07"
+lighter_background = "#2A211A"
+
+foreground = "#F5F0E8"
+dark_foreground = "#A89789"
+light_foreground = "#C4B3A0"
+bright_foreground = "#FAF8F4"
+
+red = "#E28A8E"
+yellow = "#D2A15D"
+orange = "#C98B62"
+green = "#75B99A"
+cyan = "#8AC3DF"
+blue = "#7BB4D2"
+magenta = "#D89A9D"
+brown = "#5C4A3D"
+
+bright_red = "#F2A0A4"
+bright_yellow = "#E5BB78"
+bright_green = "#98CEB5"
+bright_cyan = "#A0CEE3"
+bright_blue = "#A0CEE3"
+bright_magenta = "#E8B3B5"
