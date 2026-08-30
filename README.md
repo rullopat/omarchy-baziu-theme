@@ -36,10 +36,20 @@ omarchy theme set baziu
 
 ## Wallpapers
 
-The first included background is **Mask & Moonlight**, an original stylized
-tribute guided by Baziu's existing illustrated identity. It does not claim to
-be a photo-accurate portrait; future photographs can become additional,
-closer-to-life backgrounds.
+The theme includes two original wallpapers:
+
+- **Mask & Moonlight** — a quiet twilight tribute guided by Baziu's existing
+  illustrated identity.
+- **Sapphire Gaze** — a warm first-light companion informed by a private photo
+  of Baziu, preserving his upright pose, seal mask, cream ruff, and luminous
+  eyes in the same painterly style.
+
+Only the finished photo-informed artwork is published; the private reference
+photograph is not included in this repository.
+
+<p align="center">
+  <img src="./backgrounds/02-sapphire-gaze.webp" alt="Baziu — Sapphire Gaze wallpaper" width="900" />
+</p>
 
 Cycle through the available backgrounds with:
 
@@ -101,6 +111,7 @@ omarchy theme remove baziu
 ```text
 colors.toml                         Semantic Omarchy 4 palette
 backgrounds/01-mask-and-moonlight.webp  3840×2160 wallpaper
+backgrounds/02-sapphire-gaze.webp   3840×2160 wallpaper
 preview.png                         Theme-picker and README preview
 ARTWORK.md                          Artwork provenance and generation brief
 LICENSE                             MIT license for theme configuration/docs
@@ -110,7 +121,7 @@ LICENSES/CC-BY-4.0.txt              License for the included artwork
 ## License and credits
 
 Theme configuration and documentation are licensed under the
-[MIT License](./LICENSE). The included wallpaper and its derived preview are
+[MIT License](./LICENSE). The included wallpapers and the derived preview are
 licensed under [CC BY 4.0](./LICENSES/CC-BY-4.0.txt); see
 [`ARTWORK.md`](./ARTWORK.md) for provenance and attribution.
 
