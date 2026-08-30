@@ -36,19 +36,26 @@ omarchy theme set baziu
 
 ## Wallpapers
 
-The theme includes two original wallpapers:
+The theme includes three original wallpapers:
 
 - **Mask & Moonlight** — a quiet twilight tribute guided by Baziu's existing
   illustrated identity.
 - **Sapphire Gaze** — a warm first-light companion informed by a private photo
   of Baziu, preserving his upright pose, seal mask, cream ruff, and luminous
   eyes in the same painterly style.
+- **Golden Watch** — a close late-afternoon portrait informed by another
+  private photo, capturing his attentive side gaze, magnificent ruff, tufted
+  ears, and fine white whiskers.
 
-Only the finished photo-informed artwork is published; the private reference
-photograph is not included in this repository.
+Only the finished photo-informed artworks are published; their private
+reference photographs are not included in this repository.
 
 <p align="center">
   <img src="./backgrounds/02-sapphire-gaze.webp" alt="Baziu — Sapphire Gaze wallpaper" width="900" />
+</p>
+
+<p align="center">
+  <img src="./backgrounds/03-golden-watch.webp" alt="Baziu — Golden Watch wallpaper" width="900" />
 </p>
 
 Cycle through the available backgrounds with:
@@ -112,6 +119,7 @@ omarchy theme remove baziu
 colors.toml                         Semantic Omarchy 4 palette
 backgrounds/01-mask-and-moonlight.webp  3840×2160 wallpaper
 backgrounds/02-sapphire-gaze.webp   3840×2160 wallpaper
+backgrounds/03-golden-watch.webp    3840×2160 wallpaper
 preview.png                         Theme-picker and README preview
 ARTWORK.md                          Artwork provenance and generation brief
 LICENSE                             MIT license for theme configuration/docs

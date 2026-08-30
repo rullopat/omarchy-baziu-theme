@@ -75,6 +75,51 @@ Color palette: deep chocolate #1A140F and #211810, mocha #7A6555, cream #F5F0E8,
 Constraints: exactly one cat; no text, logo, signature, or watermark; no kitchen, bowls, food, cabinets, floorboards, bags, packages, labels, or any identifiable/private room detail; no oval window, plant, or copied object from Image 2; no halo, wings, rainbow bridge, gravestone, or overt mourning symbol; do not exaggerate the eyes beyond Image 1 or make them neon, anime-styled, crossed, or asymmetrical.
 ```
 
+## Golden Watch
+
+- File: `backgrounds/03-golden-watch.webp`
+- Copyright: © 2026 Patrizio Rullo
+- License: [Creative Commons Attribution 4.0 International](./LICENSES/CC-BY-4.0.txt)
+- Created with: OpenAI's built-in image generation tool
+- Visual reference: a private photograph of Baziu supplied by Patrizio Rullo;
+  the original photograph is not included in this repository
+- Style references: `backgrounds/01-mask-and-moonlight.webp` and
+  `backgrounds/02-sapphire-gaze.webp`
+- Post-processing: resized from 1672×941 to 3840×2160 with Lanczos resampling
+  and encoded as high-quality WebP
+
+The private photograph was used only to preserve Baziu's identity,
+three-quarter head angle, coat, and attentive expression. The photographed
+room, furniture, tabletop, cable, and all other objects were deliberately
+excluded; the layered paper-and-light setting is entirely invented.
+
+### Generation brief
+
+```text
+Use case: stylized-concept
+Asset type: third companion 16:9 Omarchy desktop wallpaper, intended for a polished 3840 x 2160 final asset
+Primary request: Create “Golden Watch,” an intimate but desktop-friendly portrait of the real Baziu shown in Image 1, belonging to the same visual collection as Images 2 and 3 while using a clearly different composition.
+
+Input images:
+- Image 1 is a private identity, head-angle, coat, and expression reference only, not an edit target. Preserve Baziu himself and his calm three-quarter side gaze, but treat the photographed environment and every object in it as nonexistent.
+- Image 2 is the original collection’s editorial-gouache style and dark-palette reference only. Do not copy its reclining pose, right-side placement, oval window, plant, or literal interior.
+- Image 3 is the collection’s painterly finish and likeness reference only. Do not copy its front-facing full-body pose, left-side placement, dawn horizon, or rolling landscape bands.
+
+Scene/backdrop: a wholly invented, nonrepresentational field of deep warm chocolate and smoky sapphire, built from a few large overlapping vertical and diagonal paper planes with one broad soft passage of muted amber light fading into cream. No horizon, landscape, architecture, window, door, furniture, ledge, or literal light source. Fine tactile paper grain and quiet tonal depth. Keep most of the canvas dark and low-detail, especially along the top edge.
+
+Subject: a close half-length portrait of mature Baziu framed from the chest upward, with his lower torso naturally outside the canvas like a classic painted portrait. Place him low and near the horizontal center, his head slightly left of center in the photograph’s calm three-quarter angle, looking attentively toward the upper-right open space. Faithfully preserve his rounded expressive face; tall triangular dark ears with pale inner tufts and long flyaway hairs; warm champagne-cream to ivory long coat; exceptionally full, wispy, softly wavy chest ruff; rich deep seal-brown face mask feathering into warmer tan at the crown and cheeks; darker charcoal nose bridge and muzzle; small dark wedge-shaped nose; and long fine white whiskers sweeping from natural muzzle pads. Preserve large luminous pale icy-sapphire eyes with aligned natural pupils, restrained catchlights, and correct three-quarter perspective, with the nearer eye subtly more prominent than the far eye. Remove the reddish photographic reflection. His expression is calm, attentive, dignified, affectionate, and mildly imperious, never sad or vacant.
+
+Style and medium: sophisticated editorial gouache with softly layered digital paint, clean large shapes, controlled fur detail, soft edges, and tactile paper texture. Refined, timeless, affectionate, and unsentimental. Bridge the clean graphic language of Image 2 and the painterly likeness of Image 3. Neither photorealistic nor childish, chibi, or cartoonish.
+
+Composition and framing: true wide 16:9. Use a centered-low bust composition distinct from both existing side-anchored full-body wallpapers. Keep both ears, all ear tufts, eyebrow whiskers, and every muzzle whisker safely inside the frame. Preserve broad calm negative space above the portrait and especially in the direction of Baziu’s gaze on the right. No important detail along the desktop-bar area. Maintain a clear silhouette at thumbnail size.
+
+Lighting and mood: gentle late-afternoon amber warmth grazing the cream ruff, ear edges, and whiskers, balanced by cool smoky-sapphire fill. Quietly alert, thoughtful, comforting, and alive, celebratory rather than mournful.
+
+Color palette: predominantly deep chocolate #1A140F and #211810, charcoal cocoa #0F0A07, seal mocha #5C4A3D and #7A6555, cream #F5F0E8, ivory #FAF8F4, restrained warm ochre #D2A15D, and smoky sapphire #4A7C9B and #7BB4D2 concentrated in the eyes and subtle fill. Use little or no dusty rose.
+
+Constraints: exactly one cat; no text, logo, signature, or watermark; no room, ceiling lamp, shelf, cabinet, table, wood grain, cable, electronic device, cat bed, blanket, furniture, label, or recognizable private detail from Image 1; no literal ledge or support surface; no landscape, rolling waves, oval window, plant, halo, disk behind the head, wings, rainbow bridge, gravestone, stars, or overt mourning symbol; no generic narrow-faced Siamese proportions; no neon, anime, crossed, mismatched, perfectly symmetrical, or red-reflecting eyes; no cropped ears or whiskers; no extra limbs, detached fur, floating whisker strands, or duplicated facial features.
+```
+
 ## Adding future photo-based backgrounds
 
 For a private local background, place the image under
