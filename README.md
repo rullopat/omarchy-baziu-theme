@@ -36,7 +36,8 @@ omarchy theme set baziu
 
 ## Wallpapers
 
-The theme includes three original wallpapers:
+The theme includes three original wallpaper designs, each supplied in both
+3840×2160 (16:9) and 5120×2160 (64:27 ultrawide):
 
 - **Mask & Moonlight** — a quiet twilight tribute guided by Baziu's existing
   illustrated identity.
@@ -49,6 +50,13 @@ The theme includes three original wallpapers:
 
 Only the finished photo-informed artworks are published; their private
 reference photographs are not included in this repository.
+
+The ultrawide companions extend each scene horizontally while preserving its
+central composition; they are not stretched versions. They were generated only
+from the published 16:9 artworks, without supplying the private photographs
+again. Omarchy presents all six files as separate background choices, cycles
+them in filename order, and does not select one automatically from the monitor's
+aspect ratio.
 
 <p align="center">
   <img src="./backgrounds/02-sapphire-gaze.webp" alt="Baziu — Sapphire Gaze wallpaper" width="900" />
@@ -120,6 +128,9 @@ colors.toml                         Semantic Omarchy 4 palette
 backgrounds/01-mask-and-moonlight.webp  3840×2160 wallpaper
 backgrounds/02-sapphire-gaze.webp   3840×2160 wallpaper
 backgrounds/03-golden-watch.webp    3840×2160 wallpaper
+backgrounds/04-mask-and-moonlight-ultrawide.webp  5120×2160 wallpaper
+backgrounds/05-sapphire-gaze-ultrawide.webp       5120×2160 wallpaper
+backgrounds/06-golden-watch-ultrawide.webp        5120×2160 wallpaper
 preview.png                         Theme-picker and README preview
 ARTWORK.md                          Artwork provenance and generation brief
 LICENSE                             MIT license for theme configuration/docs

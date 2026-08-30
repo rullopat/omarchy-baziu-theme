@@ -33,6 +33,47 @@ Materials/textures: fine paper grain, soft gouache edges, gentle tonal depth.
 Constraints: no text, no logos, no watermark; no halo, wings, rainbow bridge, gravestone, or overt mourning symbols; only one cat; avoid clutter; preserve strong desktop readability and negative space.
 ```
 
+### Ultrawide companion
+
+- File: `backgrounds/04-mask-and-moonlight-ultrawide.webp`
+- Dimensions: 5120×2160 (64:27)
+- Copyright: © 2026 Patrizio Rullo
+- License: [Creative Commons Attribution 4.0 International](./LICENSES/CC-BY-4.0.txt)
+- Created with: OpenAI's built-in image generation tool
+- Source artwork: `backgrounds/01-mask-and-moonlight.webp`; no private
+  photograph was used
+- Post-processing: the generated 1931×814 side-extension draft was resized to
+  cover 5120×2160 with Lanczos resampling and center-cropped. The published
+  3840×2160 artwork was then re-composited at `x=640`, with 128-pixel feathered
+  transitions confined to the two joins, and encoded as high-quality WebP.
+
+This is a genuine horizontal extension rather than a non-uniform stretch. The
+central composition, Baziu, and every focal detail remain at their original
+scale; only the outer scene continues into the added width.
+
+#### Generation brief
+
+```text
+Use case: precise-object-edit
+Asset type: native 5120 x 2160 (64:27) ultrawide companion wallpaper for Omarchy
+Primary request: Outpaint only the transparent 640-pixel bands on the left and right sides of Image 1. Fill those side bands seamlessly so the final image is a continuous 64:27 version of “Mask & Moonlight.”
+
+Input images:
+- Image 1 is the 5120 x 2160 edit target. Its opaque central 3840 x 2160 region is the approved artwork; its transparent left and right bands are the only areas to create.
+- Image 2 is the approved source-of-truth artwork and identity reference.
+
+Edit invariants: preserve the entire opaque central artwork exactly—same pixels if possible, same scale, placement, crop, cat, face, eyes, anatomy, paw, pose, oval sapphire window, plant, cushion, lighting, palette, brushwork, grain, and shadows. Do not repaint, rescale, move, crop, sharpen, simplify, or redesign the central 3840 x 2160 region. Change only the transparent side bands.
+
+Left extension: continue the existing deep chocolate wall, shadow arcs, fine paper grain, and lower cushion edge calmly into the added space. Keep it dark, sparse, and desktop-friendly.
+Right extension: continue the deep chocolate interior edge, sapphire-blue cushion/shadow, and lower resting surface naturally into the added space, without adding another object or moving Baziu.
+
+Seams: match color, luminance, texture scale, soft gouache edges, geometry, and lighting exactly at both vertical joins. No visible seam, mirrored repetition, blur bar, hard boundary, stretched texture, or duplicated motif.
+
+Composition: true 64:27 panoramic canvas. Baziu must retain exactly the original size and position inside the unchanged center artwork. Preserve generous dark negative space on the left and safe margins around ears, whiskers, paw, and body.
+
+Constraints: exactly one cat; no new objects; no second window; no additional plant; no text, logo, signature, or watermark; no anatomy changes; no changed eyes; no transparency in the result; do not invent detail outside the existing scene language.
+```
+
 ## Sapphire Gaze
 
 - File: `backgrounds/02-sapphire-gaze.webp`
@@ -73,6 +114,49 @@ Lighting and mood: warm first-light glow on the cream ruff with subtle smoky-sap
 Color palette: deep chocolate #1A140F and #211810, mocha #7A6555, cream #F5F0E8, ivory #FAF8F4, smoky sapphire #4A7C9B and #7BB4D2, restrained dusty rose #C4878A and #D89A9D.
 
 Constraints: exactly one cat; no text, logo, signature, or watermark; no kitchen, bowls, food, cabinets, floorboards, bags, packages, labels, or any identifiable/private room detail; no oval window, plant, or copied object from Image 2; no halo, wings, rainbow bridge, gravestone, or overt mourning symbol; do not exaggerate the eyes beyond Image 1 or make them neon, anime-styled, crossed, or asymmetrical.
+```
+
+### Ultrawide companion
+
+- File: `backgrounds/05-sapphire-gaze-ultrawide.webp`
+- Dimensions: 5120×2160 (64:27)
+- Copyright: © 2026 Patrizio Rullo
+- License: [Creative Commons Attribution 4.0 International](./LICENSES/CC-BY-4.0.txt)
+- Created with: OpenAI's built-in image generation tool
+- Source artwork: `backgrounds/02-sapphire-gaze.webp`; the private source
+  photograph was not supplied again
+- Post-processing: the generated 1931×814 side-extension draft was resized to
+  cover 5120×2160 with Lanczos resampling and center-cropped. The published
+  3840×2160 artwork was then re-composited at `x=640`, preserving Baziu and the
+  left side through a 128-pixel feather while a broad cosine blend from
+  `x=2500` to `x=4480` joins the two right-side background fields. The result
+  was encoded as high-quality WebP.
+
+This is a genuine horizontal extension rather than a non-uniform stretch. The
+central composition, Baziu, and every focal detail remain at their original
+scale; only the abstract dawn field continues into the added width.
+
+#### Generation brief
+
+```text
+Use case: precise-object-edit
+Asset type: native 5120 x 2160 (64:27) ultrawide companion wallpaper for Omarchy
+Primary request: Outpaint only the transparent 640-pixel bands on the left and right sides of Image 1. Fill those side bands seamlessly so the final image is a continuous 64:27 version of “Sapphire Gaze.”
+
+Input images:
+- Image 1 is the 5120 x 2160 edit target. Its opaque central 3840 x 2160 region is the approved artwork; its transparent left and right bands are the only areas to create.
+- Image 2 is the approved source-of-truth artwork and Baziu identity reference.
+
+Edit invariants: preserve the entire opaque central artwork exactly—same pixels if possible, same scale, placement, crop, Baziu identity, huge round pale-sapphire eyes, face mask, ears, whiskers, ruff, paws, upright pose, dawn bands, lighting, palette, paint texture, and shadows. Do not repaint, rescale, move, crop, sharpen, simplify, or redesign the central 3840 x 2160 region. Change only the transparent side bands.
+
+Left extension: continue the dark chocolate foreground mound, softly glowing parchment sky, and fine tactile grain into the added space. Keep Baziu safely separated from the edge; do not extend, duplicate, or alter his tail, fur, whiskers, or silhouette.
+Right extension: carry the abstract smoky-sapphire sky and layered mocha, cream, cocoa, and restrained dusty-rose landscape bands farther across the panorama with smooth natural curvature and quiet low-detail desktop space.
+
+Seams: match every band’s height, direction, color, luminance, texture scale, atmospheric depth, and soft painted edge exactly at both joins. No visible seam, mirrored repetition, blur bar, hard boundary, stretched texture, broken horizon, or duplicated motif.
+
+Composition: true 64:27 panoramic canvas. Baziu must retain the original size and position inside the unchanged center artwork. Preserve all ears and whiskers, broad calm right-side negative space, and a quiet top-bar area.
+
+Constraints: exactly one cat; no new objects; no room, architecture, window, plant, text, logo, signature, or watermark; no anatomy or eye changes; no transparency in the result; do not invent detail outside the existing abstract dawn language.
 ```
 
 ## Golden Watch
@@ -120,6 +204,47 @@ Color palette: predominantly deep chocolate #1A140F and #211810, charcoal cocoa 
 Constraints: exactly one cat; no text, logo, signature, or watermark; no room, ceiling lamp, shelf, cabinet, table, wood grain, cable, electronic device, cat bed, blanket, furniture, label, or recognizable private detail from Image 1; no literal ledge or support surface; no landscape, rolling waves, oval window, plant, halo, disk behind the head, wings, rainbow bridge, gravestone, stars, or overt mourning symbol; no generic narrow-faced Siamese proportions; no neon, anime, crossed, mismatched, perfectly symmetrical, or red-reflecting eyes; no cropped ears or whiskers; no extra limbs, detached fur, floating whisker strands, or duplicated facial features.
 ```
 
+### Ultrawide companion
+
+- File: `backgrounds/06-golden-watch-ultrawide.webp`
+- Dimensions: 5120×2160 (64:27)
+- Copyright: © 2026 Patrizio Rullo
+- License: [Creative Commons Attribution 4.0 International](./LICENSES/CC-BY-4.0.txt)
+- Created with: OpenAI's built-in image generation tool
+- Source artwork: `backgrounds/03-golden-watch.webp`; the private source
+  photograph was not supplied again
+- Post-processing: the generated 1933×814 side-extension draft was resized to
+  cover 5120×2160 with Lanczos resampling and center-cropped. The published
+  3840×2160 artwork was then re-composited at `x=640`, with 128-pixel feathered
+  transitions confined to the two joins, and encoded as high-quality WebP.
+
+This is a genuine horizontal extension rather than a non-uniform stretch. The
+central composition, Baziu, and every focal detail remain at their original
+scale; only the abstract paper-and-light field continues into the added width.
+
+#### Generation brief
+
+```text
+Use case: precise-object-edit
+Asset type: native 5120 x 2160 (64:27) ultrawide companion wallpaper for Omarchy
+Primary request: Outpaint only the transparent 640-pixel bands on the left and right sides of Image 1. Fill those side bands seamlessly so the final image is a continuous 64:27 version of “Golden Watch.”
+
+Input images:
+- Image 1 is the 5120 x 2160 edit target. Its opaque central 3840 x 2160 region is the approved artwork; its transparent left and right bands are the only areas to create.
+- Image 2 is the approved source-of-truth artwork and Baziu identity reference.
+
+Edit invariants: preserve the entire opaque central artwork exactly—same pixels if possible, same scale, placement, crop, Baziu identity, three-quarter head angle, aligned sapphire eyes, mask, muzzle, tufted ears, long whiskers, immense cream ruff, amber rim light, abstract geometry, palette, paper grain, and shadows. Do not repaint, rescale, move, crop, sharpen, simplify, or redesign the central 3840 x 2160 region. Change only the transparent side bands.
+
+Left extension: continue the dark chocolate and charcoal geometric paper planes, shallow arcs, amber-brown tonal falloff, and tactile grain into the added space. Keep it dark, restrained, and low-detail.
+Right extension: continue the smoky-sapphire angular planes and broad muted-amber light passage naturally toward the outer edge. Preserve the light direction and taper; do not form a literal window, door, spotlight disk, or halo.
+
+Seams: match geometry, color, luminance, texture scale, soft gouache edges, and lighting exactly at both joins. No visible seam, mirrored repetition, blur bar, hard boundary, stretched texture, broken ray, or duplicated motif.
+
+Composition: true 64:27 panoramic canvas. Baziu must retain exactly the original size and low-centered position inside the unchanged center artwork. Preserve all ear tufts and whiskers, his rightward gaze, quiet upper space, and a clear desktop-safe silhouette.
+
+Constraints: exactly one cat; no new objects; no room, furniture, landscape, text, logo, signature, or watermark; no anatomy, face, whisker, or eye changes; no transparency in the result; do not invent detail outside the established abstract paper-and-light language.
+```
+
 ## Adding future photo-based backgrounds
 
 For a private local background, place the image under
@@ -128,8 +253,9 @@ For a private local background, place the image under
 For a background intended for this public repository:
 
 1. Confirm that you own the photograph and choose its license explicitly.
-2. Use a 16:9 crop at 3840×2160 when possible.
-3. Name it `backgrounds/NN-short-title.ext` so Omarchy's lexical ordering is
-   predictable.
+2. Use a documented desktop target; current editions use 3840×2160 (16:9)
+   and 5120×2160 (64:27).
+3. Name it `backgrounds/NN-short-title[-ultrawide].ext` so Omarchy's lexical
+   ordering is predictable.
 4. Add its source, changes, copyright holder, and license to this file.
 5. Refresh `preview.png` only when changing the theme's primary preview.
