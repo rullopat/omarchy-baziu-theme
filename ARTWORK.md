@@ -42,36 +42,42 @@ Constraints: no text, no logos, no watermark; no halo, wings, rainbow bridge, gr
 - Created with: OpenAI's built-in image generation tool
 - Source artwork: `backgrounds/01-mask-and-moonlight.webp`; no private
   photograph was used
-- Post-processing: the generated 1931×814 side-extension draft was resized to
-  cover 5120×2160 with Lanczos resampling and center-cropped. The published
-  3840×2160 artwork was then re-composited at `x=640`, with 128-pixel feathered
-  transitions confined to the two joins, and encoded as high-quality WebP.
+- Post-processing: the generated 1721×914 recomposition was uniformly resized
+  to 5120×2719 with Lanczos resampling, cropped to 5120×2160 at `x=0`, `y=430`
+  to preserve the complete forepaw and a cushion margin, stripped of metadata,
+  and encoded as high-quality WebP. No non-uniform scaling or separately
+  composited center plate was used.
 
-This is a genuine horizontal extension rather than a non-uniform stretch. The
-central composition, Baziu, and every focal detail remain at their original
-scale; only the outer scene continues into the added width.
+This is a genuine 64:27 recomposition rather than a non-uniform stretch. It
+preserves Baziu's identity, pose, palette, lighting, and painterly character
+while rebalancing his placement and the surrounding negative space for the
+ultrawide canvas.
 
 #### Generation brief
 
 ```text
 Use case: precise-object-edit
-Asset type: native 5120 x 2160 (64:27) ultrawide companion wallpaper for Omarchy
-Primary request: Outpaint only the transparent 640-pixel bands on the left and right sides of Image 1. Fill those side bands seamlessly so the final image is a continuous 64:27 version of “Mask & Moonlight.”
+Asset type: replacement 5120 x 2160 (64:27) ultrawide Omarchy wallpaper
+Primary request: Recompose the approved “Mask & Moonlight” artwork in Image 1 as one single, coherent panoramic painting. This must be a native ultrawide scene, not a centered 16:9 image pasted over separately generated side strips.
 
-Input images:
-- Image 1 is the 5120 x 2160 edit target. Its opaque central 3840 x 2160 region is the approved artwork; its transparent left and right bands are the only areas to create.
-- Image 2 is the approved source-of-truth artwork and identity reference.
+Input image:
+- Image 1 is the sole source-of-truth for Baziu’s identity, pose, palette, lighting, objects, and editorial-gouache style. Use no photographic source.
 
-Edit invariants: preserve the entire opaque central artwork exactly—same pixels if possible, same scale, placement, crop, cat, face, eyes, anatomy, paw, pose, oval sapphire window, plant, cushion, lighting, palette, brushwork, grain, and shadows. Do not repaint, rescale, move, crop, sharpen, simplify, or redesign the central 3840 x 2160 region. Change only the transparent side bands.
+Subject: preserve Baziu as the same large reclining Neva Masquerade cat: fluffy cream body and ruff, deep chocolate mask and ears, luminous round sapphire eyes, one dark front paw, calm front-facing expression. Keep his apparent scale close to the original artwork, anchored in the lower-right half, but complete his full rounded haunch naturally and leave a comfortable margin before the right edge. Exactly one cat.
 
-Left extension: continue the existing deep chocolate wall, shadow arcs, fine paper grain, and lower cushion edge calmly into the added space. Keep it dark, sparse, and desktop-friendly.
-Right extension: continue the deep chocolate interior edge, sapphire-blue cushion/shadow, and lower resting surface naturally into the added space, without adding another object or moving Baziu.
+Scene: retain the deep chocolate twilight interior, one tall sapphire oval, one restrained dusty-rose plant in one vase, the dark sapphire cushion, and the warm mocha/cream/dusty-rose resting surface. Extend the room organically across the wider canvas.
 
-Seams: match color, luminance, texture scale, soft gouache edges, geometry, and lighting exactly at both vertical joins. No visible seam, mirrored repetition, blur bar, hard boundary, stretched texture, or duplicated motif.
+Continuity requirement: paint the entire 64:27 frame in one pass. Every wall gradient, shadow arc, cushion edge, resting-surface contour, sapphire shape, plant stem, cat silhouette, and cast shadow must flow continuously across the full width. There must be no vertical join, side panel, tonal column, pasted center, abrupt geometry change, broken curve, clipped haunch, mismatched grain, duplicated motif, mirrored strip, or change in rendering style anywhere.
 
-Composition: true 64:27 panoramic canvas. Baziu must retain exactly the original size and position inside the unchanged center artwork. Preserve generous dark negative space on the left and safe margins around ears, whiskers, paw, and body.
+Composition/framing: true 64:27 panorama. Preserve broad quiet negative space across the left half and a low-detail top edge for the desktop bar. Keep Baziu prominent rather than miniaturized; both ears, all whiskers, paw, body, and completed haunch remain safely inside the frame. The resting surface should form one continuous set of broad curves from left to right.
 
-Constraints: exactly one cat; no new objects; no second window; no additional plant; no text, logo, signature, or watermark; no anatomy changes; no changed eyes; no transparency in the result; do not invent detail outside the existing scene language.
+Style/medium: sophisticated editorial gouache and softly layered digital illustration, tactile fine paper grain, clean large shapes, soft painted edges, timeless and restrained; match Image 1 closely.
+
+Lighting/mood: low warm serene evening light with subtle sapphire accents, affectionate and alive.
+
+Color palette: deep chocolate #211810 and #1A140F, warm cream #F5F0E8, ivory #FAF8F4, mocha #7A6555, sapphire #4A7C9B and #6BA3C2, very restrained dusty rose #C4878A.
+
+Constraints: exactly one cat, one sapphire oval, one vase, one plant; no additional objects, furniture, room details, text, logo, signature, watermark, halo, wings, memorial symbols, transparency, photorealism, childish styling, anatomy changes, extra limbs, duplicate leaves, cropped fur, or edge-to-edge cat body.
 ```
 
 ## Sapphire Gaze

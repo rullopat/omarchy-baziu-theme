@@ -51,12 +51,12 @@ The theme includes three original wallpaper designs, each supplied in both
 Only the finished photo-informed artworks are published; their private
 reference photographs are not included in this repository.
 
-The ultrawide companions extend each scene horizontally while preserving its
-central composition; they are not stretched versions. They were generated only
-from the published 16:9 artworks, without supplying the private photographs
-again. Omarchy presents all six files as separate background choices, cycles
-them in filename order, and does not select one automatically from the monitor's
-aspect ratio.
+The ultrawide companions adapt each scene for the wider canvas while preserving
+its subject, visual identity, and painterly character; they are not stretched
+versions. They were generated only from the published 16:9 artworks, without
+supplying the private photographs again. Omarchy presents all six files as
+separate background choices, cycles them in filename order, and does not select
+one automatically from the monitor's aspect ratio.
 
 <p align="center">
   <img src="./backgrounds/02-sapphire-gaze.webp" alt="Baziu — Sapphire Gaze wallpaper" width="900" />
